@@ -1,6 +1,9 @@
 # Curso de Docker
 
 
+[Gerenciando Imagens](gerenciando-imagens-docker)
+
+
 
 ##  Gerenciando imagens docker
 
@@ -39,3 +42,17 @@ $ docker container inspect <id-da-imagem>
 ```
 
 
+
+##Configurando Recursos dos Containers
+
+> Ver informações sobre utilização de recursos do containar
+
+```bash
+$   docker container stats <img-name>
+``` 
+
+
+## Entender e criar volumes
+
+> Volumes : Parte da memoria da maquina que ta rodando o container, que serve
+para manter dados de forma persistente.
